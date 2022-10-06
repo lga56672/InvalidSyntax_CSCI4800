@@ -1,9 +1,12 @@
+
 .navbar {
     background-color: #272a2b;
     width: 100vw;
     display: block;
-    margin: -8px;
+    margin: -10px;
+    margin-left:-20px;
     padding: 8px;
+    position: fixed;
 }
 
 .navbar ul {
@@ -39,6 +42,17 @@
     width: 80vw;
 }
 
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-body .left-side-grid {
+    width: 50vw;
+    margin: 0 1em;
+    padding-bottom: 50px;
+}
+
 .center-self {
     margin: auto;
     max-width: 100ch;
@@ -62,4 +76,27 @@ footer {
     text-align: center;
     background-color: gainsboro;
     padding: 10px;
+}
+
+a {
+    display: inline-block;
+    color: #f44c68;
+}
+
+a:hover {
+    color: #b13053;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center-children h2 {
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.milestone-2-list {
+    padding-left: 2em;
+    border-left: #f44c68 solid 2px;
 }
