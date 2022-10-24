@@ -53,6 +53,13 @@
     padding-bottom: 50px;
 }
 
+
+.main-body .right-side-grid {
+    width: 45vw;
+    margin: 0 1em;
+    padding-bottom: 50px;
+}
+
 .center-self {
     margin: auto;
     max-width: 100ch;
