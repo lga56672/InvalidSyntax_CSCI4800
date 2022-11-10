@@ -107,3 +107,8 @@ a:hover {
     padding-left: 2em;
     border-left: #f44c68 solid 2px;
 }
+
+img {
+    max-width: 50%;
+    height: auto;
+}
